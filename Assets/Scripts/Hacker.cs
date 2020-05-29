@@ -66,9 +66,9 @@ public class Hacker : MonoBehaviour
             ChooseLevel(levelIndex);
             currentScreen = Screen.Password;
         }
-        else if (input == "3")
+        else if (input == "2")
         {
-            levelIndex = 3;
+            levelIndex = 2;
             ChooseLevel(levelIndex);
             currentScreen = Screen.Password;
         }
