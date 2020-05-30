@@ -123,11 +123,11 @@ public class Hacker : MonoBehaviour
     {
         currentScreen = Screen.Win;
         Terminal.ClearScreen();
-        ShowLevelReward();
+        ShowRewardScreen();
         Terminal.WriteLine("Press 'q' to choose level again");
     }
 
-    void ShowLevelReward()
+    void ShowRewardScreen()
     {
         switch (levelIndex)
         {
